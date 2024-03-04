@@ -1,0 +1,46 @@
+{
+    "endpoints":[
+        {
+            "url":"https://webhook.site/3f9b0a58-419e-4625-ac25-9c4b0d629ba1",
+            "method": "POST",
+            "data": {
+                "foo": "bar"
+            },
+            "headers": {
+                "example-header": "test-foo"
+            }
+        },
+        {
+            "url":"https://jsonplaceholder.typicode.com/todos/1",
+            "method": "GET",
+            "headers": {
+                "example-header": "test-bar"
+            }
+        },
+        {
+            "url":"https://jsonplaceholder.typicode.com/todos/387",
+            "method": "GET",
+            "headers": {
+                "example-header": "test-bar"
+            }
+        }
+
+    ],
+    "global_headers": {
+        "example-global-header": "test"
+    },
+    "values": [
+        {
+            "name": "user-1",
+            "headers": {
+                "Authorization": "Bearer 1234"
+            }
+        },
+        {
+            "name": "user-2",
+            "headers": {
+                "Authorization": "Bearer 5678"
+            }
+        }
+    ]
+}
