@@ -8,7 +8,8 @@ setup(
     include_package_data=True,
     install_requires=[
         'requests',
-        'Click'
+        'Click',
+        'jsonschema'
     ],
     entry_points='''
         [console_scripts]
